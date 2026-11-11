@@ -1,0 +1,20 @@
+dataset:
+  name: bloodmnist
+  image_size: 28
+  num_classes: 8
+
+training:
+  batch_size: 64
+  num_epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  random_seed: 42
+  early_stopping_patience: 5
+
+model:
+  dropout: 0.3
+  num_conv_blocks: 3
+
+paths:
+  checkpoint_dir: reports/metrics
+  figures_dir: reports/figures

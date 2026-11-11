@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data — do not commit raw datasets
+data/raw/
+data/processed/
+
+# Model checkpoints
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Reports output (keep the folder, not the generated files)
+reports/figures/*
+reports/metrics/*
+!reports/figures/.gitkeep
+!reports/metrics/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow / W&B
+mlruns/
+wandb/

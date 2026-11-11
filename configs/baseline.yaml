@@ -1,0 +1,26 @@
+dataset:
+  name: bloodmnist
+  image_size: 28
+  split: train
+
+preprocessing:
+  normalize: true
+  flatten: true
+  random_seed: 42
+
+logistic_regression:
+  max_iter: 2000
+  C: 1.0
+  solver: lbfgs
+  random_state: 42
+
+svm:
+  C: 0.1
+  max_iter: 2000
+  random_state: 42
+
+hog:
+  orientations: 9
+  pixels_per_cell: [4, 4]
+  cells_per_block: [2, 2]
+  channel_axis: -1
