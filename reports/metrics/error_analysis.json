@@ -1,0 +1,37 @@
+{
+  "total_test_images": 3421,
+  "correct": 3245,
+  "errors": 176,
+  "error_rate": 0.0514,
+  "confidence_threshold": 0.4754,
+  "error_rate_above_threshold": 0.0488,
+  "error_rate_below_threshold": 0.5,
+  "coverage_at_threshold": 0.9942,
+  "top_confused_pairs": [
+    {
+      "true": "Monocyte",
+      "predicted": "Immature granulocytes",
+      "count": 43
+    },
+    {
+      "true": "Neutrophil",
+      "predicted": "Immature granulocytes",
+      "count": 21
+    },
+    {
+      "true": "Basophil",
+      "predicted": "Immature granulocytes",
+      "count": 21
+    },
+    {
+      "true": "Immature granulocytes",
+      "predicted": "Basophil",
+      "count": 14
+    },
+    {
+      "true": "Lymphocyte",
+      "predicted": "Immature granulocytes",
+      "count": 13
+    }
+  ]
+}
