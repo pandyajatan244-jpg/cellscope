@@ -11,17 +11,13 @@ build/
 data/raw/
 data/processed/
 
-# Model checkpoints
-*.pt
+# Model checkpoints (large files only — small checkpoints are tracked)
 *.pth
 *.pkl
-*.joblib
 
 # Reports output (keep the folder, not the generated files)
 reports/figures/*
-reports/metrics/*
 !reports/figures/.gitkeep
-!reports/metrics/.gitkeep
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
